@@ -1,14 +1,16 @@
 #!/usr/bin/python
 import MySQLdb
 
+#database information removed for privacy!
+
 def myHost():
-	return 'mysql.cs.orst.edu'
+	return 'xxxx'
 def myUsername():
-	return 'cs419_group9'
+	return 'xxxx'
 def myDB():
-	return 'cs419_group9'
+	return 'xxxx'
 def myPassword():
-	return 'dZmXnT5MydhwddA2'
+	return 'xxxx'
 
 def connect():
 	db = MySQLdb.connect(host=myHost(), user=myUsername(), passwd=myPassword(), db=myDB())
